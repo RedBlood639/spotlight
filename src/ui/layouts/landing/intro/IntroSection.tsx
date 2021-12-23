@@ -53,7 +53,7 @@ const IntroSection = () => {
         autoPlay
         muted
         loop
-        poster="https://res.cloudinary.com/adidas-app/image/upload/q_auto:good/v1/feed-assets/qc8e4yx2n9uoqcatcfyv.jpeg"
+        // poster="https://res.cloudinary.com/adidas-app/image/upload/q_auto:good/v1/feed-assets/qc8e4yx2n9uoqcatcfyv.jpeg"
       >
         <source src="introvideo.mp4" type="video/mp4" />
       </IntroVideo>
