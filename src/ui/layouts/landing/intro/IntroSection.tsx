@@ -47,7 +47,7 @@ const IntroSection = () => {
           </AppTextDiv>
         </StoreLink>
       </AppLinks>
-      <IntroImg src={introAppImg} />
+      <IntroImg src={introAppImg} alt="introapp" />
       <IntroVideo
         playsInline
         autoPlay

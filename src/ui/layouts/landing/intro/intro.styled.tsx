@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const IntroDiv = styled.div`
   position: relative;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   /* overflow: hidden; */
   text-align: center;
   contain: content;
@@ -32,9 +32,11 @@ export const Overlay = styled.div`
 export const IntroTitle = styled.div`
   font-size: clamp(32px, 10vw, 64px);
   text-align: center;
-
+  width: 90%;
   color: #fff;
   text-shadow: 0 0 20px #0f0f0f80;
+  max-width: 60rem;
+  margin: auto;
 `;
 
 export const AppLinks = styled.div`
@@ -43,10 +45,18 @@ export const AppLinks = styled.div`
   align-items: center;
   margin: auto;
   margin: 50px 0;
+  transition: all 0.2s ease-in-out;
   & > *:not(:first-child) {
+    @media screen and (max-width: 450px) {
+      margin-left: 0;
+      margin-top: 20px;
+    }
     margin-left: 20px;
   }
   z-index: 1;
+  @media screen and (max-width: 450px) {
+    flex-direction: column;
+  }
 `;
 
 export const StoreLink = styled.div<{ color: string }>`
@@ -69,6 +79,10 @@ export const StoreLink = styled.div<{ color: string }>`
   :hover {
     transform: scale(1.03);
   }
+  @media screen and (max-width: 450px) {
+    max-width: 200px;
+    width: 100%;
+  }
 `;
 
 export const AppTextDiv = styled.div<{ color: string }>`
@@ -83,6 +97,7 @@ export const AppTextDiv = styled.div<{ color: string }>`
 `;
 
 export const IntroImg = styled.img`
-  width: 50%;
+  width: 100%;
+  max-width: 60rem;
   margin: auto;
 `;

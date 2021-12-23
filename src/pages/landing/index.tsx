@@ -14,11 +14,11 @@ const Landing = () => {
   return (
     <PageDiv>
       <IntroSection />
-      <CommunitySection />
+      {/* <CommunitySection />
       <ContactSection />
       <CommunityEdition />
       <JoinSection />
-      <Footer />
+      <Footer /> */}
     </PageDiv>
   );
 };
