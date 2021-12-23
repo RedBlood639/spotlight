@@ -43,28 +43,43 @@ export const CommunityContent = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  grid-gap: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
   z-index: 1;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Title = styled.div`
   color: #d08e39;
   font-weight: 400;
   font-size: clamp(20px, 8vw, 40px);
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 export const Content = styled.div`
-  font-size: 18px;
+  font-size: clamp(20px, 4vw, 20px);
   color: #99a8a7;
   margin: 18px 0;
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 export const DiscordButton = styled.div`
+  @media screen and (max-width: 768px) {
+    align-self: center;
+    margin-top: 1rem;
+  }
+  font-size: clamp(14px, 2vw, 12px);
   margin-top: 2rem;
   background-color: #d08e39;
   padding: 0.75rem 1.5rem;
   text-align: center;
-  max-width: 16rem;
+  max-width: calc(250px - 3rem);
   width: 100%;
   border-radius: 2rem;
   cursor: pointer;
@@ -76,5 +91,8 @@ export const DiscordButton = styled.div`
 `;
 
 export const CommunityImg = styled.img`
-  width: 90%;
+  width: 100%;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
 `;

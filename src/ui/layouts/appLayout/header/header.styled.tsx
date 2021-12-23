@@ -112,6 +112,9 @@ export const HoDivider = styled.div`
   background-color: #fff;
   margin: 0 5px;
   height: 20px;
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `;
 
 export const Sidebar = styled.div<{ active: boolean }>`

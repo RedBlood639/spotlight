@@ -6,7 +6,7 @@ export const FooterDiv = styled.div`
   padding: 4rem 0;
   position: relative;
   width: 100%;
-  height: 500px;
+  min-height: 500px;
   background: url(${footerImg});
   background-position: bottom;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@ export const ContentGroup = styled.div`
 
 export const Title = styled.div`
   font-family: QuincyCF-Regular;
-  font-size: clamp(18px, 6vw, 36px);
+  font-size: clamp(25px, 6vw, 36px);
   font-weight: 400;
   color: #faf8f1;
   text-align: center;
@@ -32,6 +32,9 @@ export const JoinCardGroup = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const JoinCard = styled.div`
@@ -61,7 +64,7 @@ export const CardTitle = styled.div`
   flex-flow: row;
   margin: 1rem;
   font-family: QuincyCF-Regular;
-  font-size: clamp(18px, 6vw, 36px);
+  font-size: clamp(25px, 4vw, 36px);
   font-weight: 400;
   color: #faf8f1;
   svg {

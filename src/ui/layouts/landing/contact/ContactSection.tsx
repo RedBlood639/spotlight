@@ -34,9 +34,7 @@ const ContactSection = () => {
         <div style={{ zIndex: 1, display: "grid" }}>
           <SubmitCard />
         </div>
-        <Title
-          style={{ textAlign: "center", fontSize: "50px", marginTop: "50px" }}
-        >
+        <Title style={{ textAlign: "center", marginTop: "50px" }}>
           Talk about the places you love
         </Title>
         <AppLinks>

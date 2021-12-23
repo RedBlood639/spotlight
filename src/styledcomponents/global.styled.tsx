@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const PageContainer = styled.div`
-  width: 100%;
-  max-width: 60%;
+  width: 90%;
+  max-width: 70rem;
   margin: auto;
 `;
 

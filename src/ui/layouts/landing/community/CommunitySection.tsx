@@ -25,7 +25,7 @@ const CommunitySection = () => {
           <CommunityTitle>The Spotlight DAO</CommunityTitle>
         </CommunityHeader>
         <CommunityContent>
-          <div style={{ zIndex: 1 }}>
+          <div style={{ zIndex: 1, display: "flex", flexDirection: "column" }}>
             <Title>The first community owned wallet</Title>
             <Content>
               Tally is the first Web3 wallet that’s owned by its users, not a
@@ -34,7 +34,7 @@ const CommunitySection = () => {
             </Content>
             <DiscordButton>Join the Spotlight Discord</DiscordButton>
           </div>
-          <div>
+          <div style={{ textAlign: "center" }}>
             <CommunityImg src={communityImg} alt="community" />
           </div>
         </CommunityContent>

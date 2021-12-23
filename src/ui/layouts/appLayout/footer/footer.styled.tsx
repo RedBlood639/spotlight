@@ -19,6 +19,12 @@ export const FooterLinks = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    & > *:not(:first-child) {
+      margin-top: 20px;
+    }
+  }
 `;
 
 export const LinkGroup = styled.div`

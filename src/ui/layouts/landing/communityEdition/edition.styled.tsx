@@ -28,10 +28,11 @@ export const EditionDiv = styled.div`
 `;
 
 export const Title = styled.div`
+  word-wrap: break-word;
   z-index: 1;
   margin: 2rem auto;
   font-family: QuincyCF-Regular;
-  font-size: clamp(18px, 6vw, 36px);
+  font-size: clamp(25px, 6vw, 36px);
   font-weight: 400;
   color: #faf8f1;
   text-align: center;
@@ -43,6 +44,7 @@ export const EditionGroup = styled.div`
   max-width: 80rem;
   margin: auto;
   z-index: 1;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 `;
 
@@ -50,6 +52,7 @@ export const EditionImg = styled.img`
   margin: 2rem;
   cursor: pointer;
   transition: all 0.2s;
+  max-width: 180px;
   :hover {
     transform: scale(1.05);
   }

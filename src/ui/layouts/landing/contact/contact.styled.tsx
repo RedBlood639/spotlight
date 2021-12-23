@@ -18,6 +18,9 @@ export const ContactCol = styled.div`
   margin: 20px 0;
   grid-gap: 20px;
   z-index: 1;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const ContactCardDiv = styled.div`
@@ -59,6 +62,9 @@ export const Date = styled.div`
 export const ContentDiv = styled.div`
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const Content = styled.div`
@@ -103,7 +109,7 @@ export const SubmitTitle = styled.div`
 export const SubmitInput = styled.input`
   margin: 0.5rem;
   background: #33514e00;
-  width: 100%;
+  width: 90%;
   max-width: 32rem;
   padding: 0.5rem 1.5rem;
   border: 1px solid #667c7a;
