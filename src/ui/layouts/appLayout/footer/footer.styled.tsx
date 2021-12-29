@@ -14,7 +14,7 @@ export const FooterDiv = styled.div`
 
 export const FooterEmpty = styled.div`
   /* background-color: #002522; */
-  margin-top: -48px;
+  margin-top: -60px;
   height: 48px;
 `;
 
