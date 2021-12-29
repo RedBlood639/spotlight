@@ -16,17 +16,17 @@ const ContactSection = () => {
           <ContactCard
             title="Call for Delegates for the Spotlight DAO"
             date="December 1, 2021"
-            text="Tally is open source under GNU General Public License v3."
+            text="Spotlight is open source under GNU General Public License v3."
           />
         </div>
         <ContactCol>
           <ContactCard
             title="Open Source Announcement"
             date="November 17, 2021"
-            text="Tally is open source under GNU General Public License v3."
+            text="Spotlight is open source under GNU General Public License v3."
           />
           <ContactCard
-            title="How to Try Tally"
+            title="How to Try Spotlight"
             date="December 15, 2021"
             text="The Community Edition includes everything you need for DeFi."
           />

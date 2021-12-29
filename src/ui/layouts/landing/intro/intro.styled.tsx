@@ -1,6 +1,13 @@
 import styled from "styled-components";
 
 export const IntroDiv = styled.div`
+  #introParticles {
+    z-index: 0;
+    top: 0;
+    canvas {
+      position: absolute !important;
+    }
+  }
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -23,7 +30,8 @@ export const Overlay = styled.div`
   position: absolute;
   z-index: -1;
   top: 0;
-  background-color: #002522;
+  /* background-color: #002522; */
+  background: linear-gradient(#1a213a50, #1a213a);
   /* backdrop-filter: blur(5px); */
   width: 100%;
   height: 100%;

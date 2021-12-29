@@ -1,6 +1,7 @@
 import React from "react";
 import { SiDiscord, SiGithub } from "react-icons/si";
 import { PageContainer } from "styledcomponents/global.styled";
+import CustomParticles from "ui/templates/particle";
 import { Overlay } from "../communityEdition/edition.styled";
 import {
   CardContent,
@@ -19,7 +20,7 @@ const FooterSection = () => {
       <Overlay />
       <PageContainer>
         <ContentGroup>
-          <Title>{"Let’s Build Tally Together"}</Title>
+          <Title>{"Let’s Build Spotlight Together"}</Title>
           <JoinCardGroup>
             <JoinCard>
               <CardTitle>
@@ -28,7 +29,7 @@ const FooterSection = () => {
               </CardTitle>
               <CardContent>
                 {
-                  "Want to contribute? Tally is 100% open source under GPL v3. Let’s build the next great wallet together."
+                  "Want to contribute? Spotlight is 100% open source under GPL v3. Let’s build the next great wallet together."
                 }
               </CardContent>
               <JoinButton>Go to Github</JoinButton>
@@ -48,6 +49,7 @@ const FooterSection = () => {
           </JoinCardGroup>
         </ContentGroup>
       </PageContainer>
+      <CustomParticles id="joinParticles" />
     </FooterDiv>
   );
 };

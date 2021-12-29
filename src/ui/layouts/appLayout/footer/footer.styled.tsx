@@ -2,10 +2,18 @@ import styled from "styled-components";
 
 export const FooterDiv = styled.div`
   background-color: #0f2330;
+  position: relative;
+  #footerParticles {
+    top: 0;
+    left: 0;
+    canvas {
+      position: absolute !important;
+    }
+  }
 `;
 
 export const FooterEmpty = styled.div`
-  background-color: #002522;
+  /* background-color: #002522; */
   margin-top: -48px;
   height: 48px;
 `;

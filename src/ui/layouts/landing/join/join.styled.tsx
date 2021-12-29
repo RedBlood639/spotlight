@@ -3,6 +3,13 @@ import styled from "styled-components";
 import footerImg from "assets/footer.svg";
 
 export const FooterDiv = styled.div`
+  #joinParticles {
+    z-index: 0;
+    top: 0;
+    canvas {
+      position: absolute !important;
+    }
+  }
   padding: 4rem 0;
   position: relative;
   width: 100%;

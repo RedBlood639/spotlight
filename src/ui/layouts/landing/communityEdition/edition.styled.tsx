@@ -13,6 +13,13 @@ export const Overlay = styled.div`
 `;
 
 export const EditionDiv = styled.div`
+  #EditionParticles {
+    z-index: 0;
+    top: 0;
+    canvas {
+      position: absolute !important;
+    }
+  }
   position: relative;
   padding: 6rem 2rem;
   /* background: radial-gradient(

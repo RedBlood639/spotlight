@@ -1,6 +1,7 @@
 import React from "react";
 import { SiDiscord, SiTwitter, SiGithub } from "react-icons/si";
 import { PageContainer } from "styledcomponents/global.styled";
+import CustomParticles from "ui/templates/particle";
 import { HoDivider, SocialItem } from "../header/header.styled";
 import {
   CopyRight,
@@ -41,6 +42,7 @@ const Footer = () => {
           <CopyRight>{`©${new Date().getFullYear()} | *A Thesis Build`}</CopyRight>
         </FooterContainer>
       </PageContainer>
+      <CustomParticles id="footerParticles" />
     </FooterDiv>
   );
 };

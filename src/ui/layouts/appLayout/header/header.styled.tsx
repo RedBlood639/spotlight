@@ -31,9 +31,11 @@ export const MenuButton = styled.div`
   font-size: 40px;
   color: white;
   cursor: pointer;
+  z-index: 1;
 `;
 
 export const LogoDiv = styled.div`
+  z-index: 1;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -69,6 +71,7 @@ export const LinkGroup = styled.div`
 `;
 
 export const MenuItem = styled.div`
+  z-index: 1;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -96,6 +99,7 @@ export const MenuItem = styled.div`
 `;
 
 export const SocialItem = styled.div`
+  z-index: 1;
   color: #fff;
   font-size: 25px;
   font-weight: 500;

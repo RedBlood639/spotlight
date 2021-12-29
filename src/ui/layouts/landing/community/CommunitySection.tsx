@@ -28,8 +28,8 @@ const CommunitySection = () => {
           <div style={{ zIndex: 1, display: "flex", flexDirection: "column" }}>
             <Title>The first community owned wallet</Title>
             <Content>
-              Tally is the first Web3 wallet that’s owned by its users, not a
-              corporation. Join the pack on Discord before the Tally DAO
+              Spotlight is the first Web3 wallet that’s owned by its users, not
+              a corporation. Join the pack on Discord before the Spotlight DAO
               launches.
             </Content>
             <DiscordButton>Join the Spotlight Discord</DiscordButton>
