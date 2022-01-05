@@ -22,17 +22,12 @@ const IntroSection = () => {
       <div style={{ zIndex: 1 }}>
         <Header />
         <IntroTitle>
-          <strong>Talk about the places </strong>
-          <br />
+          ❤️{" "}
           <strong>
-            you love{" "}
-            <img
-              loading="lazy"
-              width="150px"
-              src="https://149646107.v2.pressablecdn.com/wp-content/uploads/2021/10/image-10-300x100.png"
-              alt=""
-            />
-          </strong>
+            Talk About the Places
+            <br /> You Love
+          </strong>{" "}
+          ❤️
         </IntroTitle>
         <AppLinks>
           <StoreLink color="#000">

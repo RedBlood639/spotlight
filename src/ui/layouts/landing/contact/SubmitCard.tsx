@@ -9,7 +9,7 @@ import {
 const SubmitCard = () => {
   return (
     <SubmitCardDiv>
-      <SubmitTitle>{"Get DAO News & Updates"}</SubmitTitle>
+      <SubmitTitle>{"Get News and Updates"}</SubmitTitle>
       <SubmitInput placeholder="your@gmail.com" />
       <SubmitBtn>Submit</SubmitBtn>
     </SubmitCardDiv>

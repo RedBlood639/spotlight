@@ -40,6 +40,7 @@ export const LinkGroup = styled.div`
 `;
 
 export const MenuItem = styled.div`
+  z-index: 1;
   color: #fff;
   font-size: 16px;
   font-weight: 500;

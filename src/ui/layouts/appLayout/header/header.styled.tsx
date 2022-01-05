@@ -54,8 +54,9 @@ export const LogoDiv = styled.div`
 
 export const LogoImg = styled.img`
   width: 110px;
-  animation: ${LogoRotate} 6s infinite linear;
+  /* animation: ${LogoRotate} 6s infinite linear; */
   transition: all 0.2s;
+  margin-right: 30px;
   @media screen and (max-width: 768px) {
     width: 80px;
   }

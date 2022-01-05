@@ -22,15 +22,16 @@ const CommunitySection = () => {
       <PageContainer style={{ zIndex: 1 }}>
         <CommunityHeader>
           <LaunchingBadge>Launching Soon</LaunchingBadge>
-          <CommunityTitle>The Spotlight DAO</CommunityTitle>
+          <CommunityTitle>Who We Are</CommunityTitle>
         </CommunityHeader>
         <CommunityContent>
           <div style={{ zIndex: 1, display: "flex", flexDirection: "column" }}>
-            <Title>The first community owned wallet</Title>
+            <Title>Welcome to the modern review platform</Title>
             <Content>
-              Spotlight is the first Web3 wallet that’s owned by its users, not
-              a corporation. Join the pack on Discord before the Spotlight DAO
-              launches.
+              Spotlight is a modern review platform for restaurants and
+              businesses. We ultimately want to release the platform to the
+              community in the form of a DAO. Join the Discord and come help
+              shape the future of review platforms.
             </Content>
             <DiscordButton>Join the Spotlight Discord</DiscordButton>
           </div>

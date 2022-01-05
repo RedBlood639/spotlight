@@ -11,7 +11,7 @@ export const CommunityDiv = styled.div`
   }
   position: relative;
   background: no-repeat top -8rem center/40rem auto url(${star}),
-    no-repeat linear-gradient(180deg, #0c093e86 0, #1a213a 35rem), #363748;
+    no-repeat linear-gradient(180deg, #1b223b 0, #060c1f 35rem), #363748;
   padding-bottom: 70px;
 `;
 
