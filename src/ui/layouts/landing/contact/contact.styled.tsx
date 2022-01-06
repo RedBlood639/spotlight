@@ -8,7 +8,7 @@ export const ContactDiv = styled.div`
     }
   }
   position: relative;
-  background: #060c1f linear-gradient(180deg, #060c1f, #11143b, #152230);
+  background: #060c1f linear-gradient(180deg, #060c1f, #11143b, #172937);
   padding-bottom: 10px;
 `;
 

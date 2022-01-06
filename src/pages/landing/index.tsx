@@ -1,7 +1,6 @@
 import React from "react";
 
 import {
-  CommunityEdition,
   CommunitySection,
   ContactSection,
   JoinSection,
@@ -16,7 +15,6 @@ const Landing = () => {
       <IntroSection />
       <CommunitySection />
       <ContactSection />
-      <CommunityEdition />
       <JoinSection />
       <Footer />
     </PageDiv>
