@@ -22,12 +22,7 @@ const IntroSection = () => {
       <div style={{ zIndex: 1 }}>
         <Header />
         <IntroTitle>
-          ❤️{" "}
-          <strong>
-            Talk About the Places
-            <br /> You Love
-          </strong>{" "}
-          ❤️
+          ❤️ <strong>Talk About the Places You Love</strong> ❤️
         </IntroTitle>
         <AppLinks>
           <StoreLink color="#000">

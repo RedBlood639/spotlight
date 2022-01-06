@@ -38,7 +38,7 @@ export const Overlay = styled.div`
 `;
 
 export const IntroTitle = styled.div`
-  font-size: clamp(32px, 10vw, 64px);
+  font-size: clamp(24px, 6vw, 40px);
   text-align: center;
   width: 90%;
   color: #fff;

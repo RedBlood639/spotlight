@@ -9,7 +9,7 @@ export const ContactDiv = styled.div`
   }
   position: relative;
   background: #060c1f linear-gradient(180deg, #060c1f, #11143b, #152230);
-  padding-bottom: 70px;
+  padding-bottom: 10px;
 `;
 
 export const ContactCol = styled.div`
