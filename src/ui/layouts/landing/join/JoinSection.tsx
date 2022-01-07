@@ -29,10 +29,15 @@ const FooterSection = () => {
               </CardTitle>
               <CardContent>
                 {
-                  "Want to contribute? Spotlight is 100% open source under GPL v3. Let’s build the next great wallet together."
+                  "please take a look at our GitHub. We plan to be open source. come help us build."
                 }
               </CardContent>
-              <JoinButton>Go to Github</JoinButton>
+              <JoinButton
+                href="https://github.com/redblood639/spotlight"
+                target="_blank"
+              >
+                Go to Github
+              </JoinButton>
             </JoinCard>
             <JoinCard>
               <CardTitle>
@@ -40,11 +45,11 @@ const FooterSection = () => {
                 Join the Pack
               </CardTitle>
               <CardContent>
-                {
-                  "Once you’ve tried the Community Edition, join Discord and let us know what we should add next!"
-                }
+                {"Come join the discord and hangout while you're hungry!"}
               </CardContent>
-              <JoinButton>Join Discord</JoinButton>
+              <JoinButton href="https://discord.gg/rw4uXdn2Gb" target="_blank">
+                Join Discord
+              </JoinButton>
             </JoinCard>
           </JoinCardGroup>
         </ContentGroup>

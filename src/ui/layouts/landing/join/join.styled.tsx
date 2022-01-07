@@ -87,8 +87,9 @@ export const CardContent = styled.div`
   color: #ccd3d3;
 `;
 
-export const JoinButton = styled.div`
+export const JoinButton = styled.a`
   background-color: #b6792b;
+  text-decoration: none;
   cursor: pointer;
   border: none;
   border-radius: 2rem;

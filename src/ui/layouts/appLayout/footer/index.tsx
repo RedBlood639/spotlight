@@ -28,18 +28,21 @@ const Footer = () => {
             </LinkGroup>
             <HoDivider />
             <LinkGroup>
-              <SocialItem>
+              <SocialItem href="https://discord.gg/rw4uXdn2Gb" target="_blank">
                 <SiDiscord />
               </SocialItem>
-              <SocialItem>
+              <SocialItem href="#" target="_blank">
                 <SiTwitter />
               </SocialItem>
-              <SocialItem>
+              <SocialItem
+                href="https://github.com/redblood639/spotlight"
+                target="_blank"
+              >
                 <SiGithub />
               </SocialItem>
             </LinkGroup>
           </FooterLinks>
-          <CopyRight>{`©${new Date().getFullYear()} | *A Thesis Build`}</CopyRight>
+          <CopyRight>{`©${new Date().getFullYear()} | Web4, Inc`}</CopyRight>
         </FooterContainer>
       </PageContainer>
       <CustomParticles id="footerParticles" />

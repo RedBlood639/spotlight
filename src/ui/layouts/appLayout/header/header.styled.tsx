@@ -99,7 +99,7 @@ export const MenuItem = styled.div`
   }
 `;
 
-export const SocialItem = styled.div`
+export const SocialItem = styled.a`
   z-index: 1;
   color: #fff;
   font-size: 25px;
