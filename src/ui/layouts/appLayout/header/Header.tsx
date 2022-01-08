@@ -73,7 +73,7 @@ const Header = () => {
               {/* <MenuItem>FAQ</MenuItem>
               <MenuItem>Privacy Policy</MenuItem> */}
               <MenuItem
-                href="https://medium.com/@FoundSpotlight"
+                href="https://medium.com/@FoundSpotlight/why-spotlight-70d533917635"
                 target="_blank"
               >
                 Blog
