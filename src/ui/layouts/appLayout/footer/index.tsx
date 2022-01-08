@@ -22,16 +22,24 @@ const Footer = () => {
           <FooterLinks>
             <LinkGroup>
               <MenuItem>Home</MenuItem>
-              <MenuItem>FAQ</MenuItem>
-              <MenuItem>Privacy Policy</MenuItem>
-              <MenuItem>Blog</MenuItem>
+              {/* <MenuItem>FAQ</MenuItem>
+              <MenuItem>Privacy Policy</MenuItem> */}
+              <MenuItem
+                href="https://medium.com/@FoundSpotlight"
+                target="_blank"
+              >
+                Blog
+              </MenuItem>
             </LinkGroup>
             <HoDivider />
             <LinkGroup>
               <SocialItem href="https://discord.gg/rw4uXdn2Gb" target="_blank">
                 <SiDiscord />
               </SocialItem>
-              <SocialItem href="#" target="_blank">
+              <SocialItem
+                href="https://twitter.com/FoundSpotlight"
+                target="_blank"
+              >
                 <SiTwitter />
               </SocialItem>
               <SocialItem

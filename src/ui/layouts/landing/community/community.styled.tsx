@@ -69,7 +69,8 @@ export const Content = styled.div`
   }
 `;
 
-export const DiscordButton = styled.div`
+export const DiscordButton = styled.a`
+  text-decoration: none;
   @media screen and (max-width: 768px) {
     align-self: center;
     margin-top: 1rem;

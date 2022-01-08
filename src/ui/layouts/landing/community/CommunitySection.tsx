@@ -33,7 +33,9 @@ const CommunitySection = () => {
               community in the form of a DAO. Join the Discord and come help
               shape the future of review platforms.
             </Content>
-            <DiscordButton>Join the Spotlight Discord</DiscordButton>
+            <DiscordButton href="https://discord.gg/rw4uXdn2Gb" target="_blank">
+              Join the Spotlight Discord
+            </DiscordButton>
           </div>
           <div style={{ textAlign: "center" }}>
             <CommunityImg src={communityImg} alt="community" />

@@ -29,7 +29,7 @@ const FooterSection = () => {
               </CardTitle>
               <CardContent>
                 {
-                  "please take a look at our GitHub. We plan to be open source. come help us build."
+                  "Please take a look at our GitHub. We plan to be open source. come help us build."
                 }
               </CardContent>
               <JoinButton

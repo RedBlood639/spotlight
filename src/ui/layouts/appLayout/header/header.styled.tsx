@@ -71,7 +71,8 @@ export const LinkGroup = styled.div`
   display: flex;
 `;
 
-export const MenuItem = styled.div`
+export const MenuItem = styled.a`
+  text-decoration: none;
   z-index: 1;
   color: #fff;
   font-size: 20px;
